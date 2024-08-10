@@ -7,8 +7,6 @@ sys.path.append(parent_path)
 
 update_month = '6月'
 
-
-
 product=["机电产品",
         '农产品',
         '食品',

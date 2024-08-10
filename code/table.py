@@ -291,7 +291,6 @@ def table7_output():
         "医疗仪器器械",
         "乘用车"
     ]
-    print(table_import_num.index)
 
     table_import_num[table_import_num.index.isin(import_product)].round(2).to_excel(
         f"../result/{update_month}/表7-近五年上海重点产品进口金额及增长情况 （亿元，%）.xlsx"
