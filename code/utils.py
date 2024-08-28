@@ -243,7 +243,7 @@ def get_data_trade(parent_path):
 # 处理上海重点进出口商品
 def important_product(parent_path):
 
-    country_name = pd.read_excel(r"D:\YQ-SASS\上海海关数据更新\data\country_name.xlsx")
+    country_name = pd.read_excel(parent_path+r"\data\country_name.xlsx")
     # 去除字符串中的空格
     country_name["中文名称"] = country_name["中文名称"].str.replace(" ", "")
     country_name_map = dict(zip(country_name["中文名称"], country_name["大洲"]))
