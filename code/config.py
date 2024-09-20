@@ -5,7 +5,7 @@ current_path = os.getcwd()
 parent_path = os.path.abspath(os.path.dirname(os.getcwd()))
 sys.path.append(parent_path)
 
-update_month = '7月'
+update_month = '8月'
 
 product=["机电产品",
         '农产品',
